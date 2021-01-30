@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Navigating through products and add/delete from cart",
+        "description": "",
+        "id": "demo-blaze-automation;navigating-through-products-and-add/delete-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11027839500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Demo Blaze page is launched showing all products",
+            "match": {
+              "location": "Cart_Check_Step.demo_Blaze_page_is_launched_showing_all_products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5822371400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Laptop and add to cart",
+            "match": {
+              "location": "Cart_Check_Step.navigate_to_Laptop_and_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2574313400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Repeat above step for another product",
+            "match": {
+              "location": "Cart_Check_Step.repeat_above_step_for_another_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8018857900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to cart and delete second item",
+            "match": {
+              "location": "Cart_Check_Step.navigate_to_cart_and_delete_second_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3217741900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Place order",
+            "match": {
+              "location": "Cart_Check_Step.click_on_Place_order()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 755139200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Fill in all details and click Purchase",
+            "match": {
+              "location": "Cart_Check_Step.fill_in_all_details_and_click_Purchase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125521600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Capture logs (purchase ID and amount) and assert purchase amount",
+            "match": {
+              "location": "Cart_Check_Step.capture_logs_purchase_ID_and_amount_and_assert_purchase_amount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demo Blaze automation",
+    "description": "",
+    "id": "demo-blaze-automation",
+    "keyword": "Feature",
+    "uri": "DemoBlaze.feature"
+  }
+]
